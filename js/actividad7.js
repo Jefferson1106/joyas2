@@ -24,7 +24,7 @@ function actividad7(){
     
     if(pre1=="1")
     {
-        alert("Seleccione las respuestas de todas las preguntas !");
+        
     }
     else
     {
@@ -44,7 +44,7 @@ function actividad7(){
 
     if(pre2=="1")
     {
-        alert("Seleccione las respuestas de todas las preguntas !");
+       
     }
     else
     {
@@ -64,7 +64,7 @@ function actividad7(){
 
     if(pre3=="1")
     {
-        alert("Seleccione las respuestas de todas las preguntas !");
+       
     }
     else
     {
@@ -84,7 +84,7 @@ function actividad7(){
 
     if(pre4=="1")
     {
-        alert("Seleccione las respuestas de todas las preguntas !");
+        
     }
     else
     {
@@ -92,7 +92,6 @@ function actividad7(){
         {
             cor=cor+1;
             $("#cbopre4").addClass('correcto')
-
         }
         else
         {
@@ -103,7 +102,7 @@ function actividad7(){
     }
     if(pre5=="1")
     {
-        alert("Seleccione las respuestas de todas las preguntas !");
+       
     }
     else
     {
@@ -111,7 +110,6 @@ function actividad7(){
         {
             cor=cor+1;
             $("#cbopre5").addClass('correcto')
-
         }
         else
         {
@@ -122,9 +120,11 @@ function actividad7(){
     }
 
 
+    if(pre1 !="1" && pre2 !="1" && pre3!="1" && pre4!="1" && pre5!="1" )
+    {
+        
 
-
-            var NotaF = ((cor-inc) * 10) / 5;
+        var NotaF = ((cor-inc) * 10) / 5;
             if( NotaF<0)
             {
                 NotaF=0;
@@ -136,6 +136,13 @@ function actividad7(){
                 $('#txtNota').html(NotaF.toFixed(2) + ' ');
                 document.getElementById('bt_comprobar').disabled = true;
             }
+    }
+    else
+    {
+    	alert("Debe escoger seleccionar las respuestas de todas las preguntas.");	
+    }
+
+            
     }
 }
 

@@ -182,12 +182,14 @@ function calcularNotaGeneral(total_nota, r_correctas, op_seleccionadas, total_pr
 
     if (op_seleccionadas < total_nota) {
         alert('Debe escoger ' + total_nota + ' respuestas de la pregunta');
+       
 
     } else {
         var calculo = (result_sobre * r_correctas) / total_nota
         $('#txtNota').html(calculo.toFixed(2) + ' ');
+        document.getElementById('bt_comprobar').disabled = true;
     }
-    document.getElementById('bt_comprobar').disabled = true;
+    
     //setTimeout('document.location.reload()',tiempoReload)
 
 }
