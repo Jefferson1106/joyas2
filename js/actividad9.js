@@ -166,8 +166,7 @@ function contarRespCorrectaDnD() {
 
     for (i = 0; i < arrayCorrestarColorear.length; i++) {
         var id = document.getElementById(arrayCorrestarColorear[i]).parentNode.id;
-        document.getElementById(id).style.background = '#65CE6D';
-        
+        document.getElementById(id).style.borderColor = 'green';
     }
     calcularNotaGeneral(
         4,
