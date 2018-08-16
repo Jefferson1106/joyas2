@@ -1,5 +1,5 @@
-var cabecera =' ';
- var derecha = ' ';
+var cabecera ='';
+ var derecha = '';
  f_titulos();
  
 

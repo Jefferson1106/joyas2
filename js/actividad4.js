@@ -1,6 +1,6 @@
 
-var cabecera =' ';
-var derecha = ' ';
+var cabecera ='';
+var derecha = '';
 f_titulos();
 
 var titulos = 'contesto';
@@ -20,7 +20,7 @@ function actividad4(){
     }
     else
     {
-        if(pre1 =="Manolo" || pre1 =="vaca" || pre1=="Mercedes")
+        if(pre1 =="Manolo" || pre1 =="Martina" || pre1=="Mercedes")
     {
         if(pre1!=pre2 && pre1!=pre3)
         {
@@ -41,7 +41,7 @@ function actividad4(){
             $("#pre1").addClass('incorrecto')
         }
 
-    if(pre2 =="Manolo" || pre2 =="vaca" || pre2=="Mercedes")
+    if(pre2 =="Manolo" || pre2 =="Martina" || pre2=="Mercedes")
     {
         if(pre2!=pre3 && pre2!=pre1)
         {
@@ -61,7 +61,7 @@ function actividad4(){
             $("#pre2").removeClass('correcto')
             $("#pre2").addClass('incorrecto')
         }
-    if(pre3 =="Manolo" || pre3 =="vaca" || pre3=="Mercedes")
+    if(pre3 =="Manolo" || pre3 =="Martina" || pre3=="Mercedes")
     {
         if(pre3!=pre1 && pre3!=pre2)
         {

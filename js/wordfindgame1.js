@@ -225,7 +225,7 @@
           wordList.splice(i,1);
           $('.' + curWord).addClass('wordFound');
 		   nota = nota+1;
-		  var notafinal= (nota*10)/(12);
+		  var notafinal= (nota*10)/(14);
 		  notafinal = notafinal.toFixed(2);
 		  
 		  $("#txtNota").text(notafinal);

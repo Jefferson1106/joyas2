@@ -1,5 +1,5 @@
 var cabecera ='Actividades de comprensión del texto';
-var derecha = ' ';
+var derecha = '';
 f_titulos();
 var titulos = "encuentro";
 $("#txtNota").html("0");
